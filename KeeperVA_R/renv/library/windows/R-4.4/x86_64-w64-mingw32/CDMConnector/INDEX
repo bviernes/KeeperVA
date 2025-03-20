@@ -1,0 +1,44 @@
+appendPermanent         Run a dplyr query and add the result set to an
+                        existing
+asDate                  as.Date dbplyr translation wrapper
+benchmarkCDMConnector   Run benchmark of tasks using CDMConnector
+cdmCon                  Get underlying database connection
+cdmDisconnect.db_cdm    Disconnect the connection of the cdm object
+cdmFlatten              Flatten a cdm into a single observation table
+cdmFromCon              Create a CDM reference object from a database
+                        connection
+cdmSample               Subset a cdm object to a random sample of
+                        individuals
+cdmSubset               Subset a cdm object to a set of persons
+cdmSubsetCohort         Subset a cdm to the individuals in one or more
+                        cohorts
+cdmWriteSchema          Get cdm write schema
+computeQuery            Execute dplyr query and save result in remote
+                        database
+copyCdmTo               Copy a cdm object from one database to another
+dateadd                 Add days or years to a date in a dplyr query
+datediff                Compute the difference between two days
+datepart                Extract the day, month or year of a date in a
+                        dplyr pipeline
+dbSource                Create a source for a cdm in a database.
+dbms                    Get the database management system (dbms) from
+                        a cdm_reference or DBI connection
+downloadEunomiaData     Download Eunomia data files
+dropTable.db_cdm        Drop table from a database backed cdm object
+eunomiaDir              Create a copy of an example OMOP CDM dataset
+eunomiaIsAvailable      Has the Eunomia dataset been cached?
+exampleDatasets         List the available example CDM datasets
+generateCohortSet       Generate a cohort set on a cdm object
+generateConceptCohortSet
+                        Create a new generated cohort set from a list
+                        of concept sets
+inSchema                Helper for working with compound schemas
+listTables              List tables in a schema
+readCohortSet           Read a set of cohort definitions into R
+requireEunomia          Require eunomia to be available. The function
+                        makes sure that you can later create a eunomia
+                        database with 'eunomiaDir()'.
+snapshot                Extract CDM metadata
+summariseQuantile       Quantile calculation using dbplyr
+tblGroup                CDM table selection helper
+version                 Get the CDM version

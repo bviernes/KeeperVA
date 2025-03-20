@@ -1,0 +1,25 @@
+Package: VaTools
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.4.0
+Author: Marc A Suchard, Benjamin Viernes
+Maintainer: Marc A Suchard <marc.suchard@va.gov>
+Description: More about what it does (maybe more than one line) Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.4), DatabaseConnector (>= 3.0.0)
+Imports: SqlRender (>= 1.6.6), stringr, dplyr
+RoxygenNote: 7.3.2
+Built: R 4.4.0; ; 2025-03-20 18:51:10 UTC; windows
+RemoteType: github
+RemoteHost: api.github.com
+RemoteUsername: vinci-ohdsi
+RemoteRepo: VaTools
+RemoteRef: develop
+RemoteSha: 4805b8e49bac19c36f614161c84370ad028f3931
+GithubHost: api.github.com
+GithubRepo: VaTools
+GithubUsername: vinci-ohdsi
+GithubRef: develop
+GithubSHA1: 4805b8e49bac19c36f614161c84370ad028f3931

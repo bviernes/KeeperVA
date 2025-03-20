@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Connect to an OMOP Common Data Model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Connect to an OMOP Common Data Model
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;CDMConnector&rsquo; version 2.0.0</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="appendPermanent.html">appendPermanent</a></td>
+<td>Run a dplyr query and add the result set to an existing</td></tr>
+<tr><td style="width: 25%;"><a href="asDate.html">asDate</a></td>
+<td>as.Date dbplyr translation wrapper</td></tr>
+<tr><td style="width: 25%;"><a href="benchmarkCDMConnector.html">benchmarkCDMConnector</a></td>
+<td>Run benchmark of tasks using CDMConnector</td></tr>
+<tr><td style="width: 25%;"><a href="cdmCon.html">cdmCon</a></td>
+<td>Get underlying database connection</td></tr>
+<tr><td style="width: 25%;"><a href="cdmDisconnect.db_cdm.html">cdmDisconnect.db_cdm</a></td>
+<td>Disconnect the connection of the cdm object</td></tr>
+<tr><td style="width: 25%;"><a href="cdmFlatten.html">cdmFlatten</a></td>
+<td>Flatten a cdm into a single observation table</td></tr>
+<tr><td style="width: 25%;"><a href="cdmFromCon.html">cdmFromCon</a></td>
+<td>Create a CDM reference object from a database connection</td></tr>
+<tr><td style="width: 25%;"><a href="cdmSample.html">cdmSample</a></td>
+<td>Subset a cdm object to a random sample of individuals</td></tr>
+<tr><td style="width: 25%;"><a href="cdmSubset.html">cdmSubset</a></td>
+<td>Subset a cdm object to a set of persons</td></tr>
+<tr><td style="width: 25%;"><a href="cdmSubsetCohort.html">cdmSubsetCohort</a></td>
+<td>Subset a cdm to the individuals in one or more cohorts</td></tr>
+<tr><td style="width: 25%;"><a href="cdmWriteSchema.html">cdmWriteSchema</a></td>
+<td>Get cdm write schema</td></tr>
+<tr><td style="width: 25%;"><a href="computeQuery.html">computeQuery</a></td>
+<td>Execute dplyr query and save result in remote database</td></tr>
+<tr><td style="width: 25%;"><a href="copyCdmTo.html">copyCdmTo</a></td>
+<td>Copy a cdm object from one database to another</td></tr>
+<tr><td style="width: 25%;"><a href="dateadd.html">dateadd</a></td>
+<td>Add days or years to a date in a dplyr query</td></tr>
+<tr><td style="width: 25%;"><a href="datediff.html">datediff</a></td>
+<td>Compute the difference between two days</td></tr>
+<tr><td style="width: 25%;"><a href="datepart.html">datepart</a></td>
+<td>Extract the day, month or year of a date in a dplyr pipeline</td></tr>
+<tr><td style="width: 25%;"><a href="dbms.html">dbms</a></td>
+<td>Get the database management system (dbms) from a cdm_reference or DBI connection</td></tr>
+<tr><td style="width: 25%;"><a href="dbSource.html">dbSource</a></td>
+<td>Create a source for a cdm in a database.</td></tr>
+<tr><td style="width: 25%;"><a href="downloadEunomiaData.html">downloadEunomiaData</a></td>
+<td>Download Eunomia data files</td></tr>
+<tr><td style="width: 25%;"><a href="dropTable.db_cdm.html">dropTable.db_cdm</a></td>
+<td>Drop table from a database backed cdm object</td></tr>
+<tr><td style="width: 25%;"><a href="eunomiaDir.html">eunomiaDir</a></td>
+<td>Create a copy of an example OMOP CDM dataset</td></tr>
+<tr><td style="width: 25%;"><a href="eunomiaIsAvailable.html">eunomiaIsAvailable</a></td>
+<td>Has the Eunomia dataset been cached?</td></tr>
+<tr><td style="width: 25%;"><a href="exampleDatasets.html">exampleDatasets</a></td>
+<td>List the available example CDM datasets</td></tr>
+<tr><td style="width: 25%;"><a href="generateCohortSet.html">generateCohortSet</a></td>
+<td>Generate a cohort set on a cdm object</td></tr>
+<tr><td style="width: 25%;"><a href="generateConceptCohortSet.html">generateConceptCohortSet</a></td>
+<td>Create a new generated cohort set from a list of concept sets</td></tr>
+<tr><td style="width: 25%;"><a href="inSchema.html">inSchema</a></td>
+<td>Helper for working with compound schemas</td></tr>
+<tr><td style="width: 25%;"><a href="listTables.html">listTables</a></td>
+<td>List tables in a schema</td></tr>
+<tr><td style="width: 25%;"><a href="readCohortSet.html">readCohortSet</a></td>
+<td>Read a set of cohort definitions into R</td></tr>
+<tr><td style="width: 25%;"><a href="requireEunomia.html">requireEunomia</a></td>
+<td>Require eunomia to be available. The function makes sure that you can later create a eunomia database with 'eunomiaDir()'.</td></tr>
+<tr><td style="width: 25%;"><a href="snapshot.html">snapshot</a></td>
+<td>Extract CDM metadata</td></tr>
+<tr><td style="width: 25%;"><a href="summariseQuantile.html">summariseQuantile</a></td>
+<td>Quantile calculation using dbplyr</td></tr>
+<tr><td style="width: 25%;"><a href="tblGroup.html">tblGroup</a></td>
+<td>CDM table selection helper</td></tr>
+<tr><td style="width: 25%;"><a href="version.html">version</a></td>
+<td>Get the CDM version</td></tr>
+</table>
+</div></body></html>
